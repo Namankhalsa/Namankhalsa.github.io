@@ -4,7 +4,7 @@ const videoB = document.getElementById("videoB");
 const clips = [
     { src: "/videos/clip4.mp4", duration: 1 },
     { src: "/videos/clip1.mp4", duration: 0.98},
-   { src: "/videos/clip3.mp4", duration: 1},
+    { src: "/videos/clip3.mp4", duration: 1},
     { src: "/videos/clip2.mp4", duration: 0.97}
 ];
 
@@ -38,5 +38,6 @@ function playNext() {
 }
 
 playNext();
+
 
 
