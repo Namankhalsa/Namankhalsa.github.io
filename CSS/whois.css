@@ -124,7 +124,7 @@ html {
 .bottom-nav {
     width: 100%;
     position: fixed;
-    bottom: 20px;
+    bottom: 80px;
     left: 0;
     display: flex;
     justify-content: center;
@@ -159,4 +159,5 @@ html {
 .bottom-nav ul li a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+
 
