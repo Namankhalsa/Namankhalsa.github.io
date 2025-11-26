@@ -11,12 +11,15 @@
   box-sizing: border-box;
 }
 .profile-img {
-  width: 270px;     /* same size as circle */
+  width: 270px;
   height: 270px;
   border-radius: 50%;
-  object-fit: cover;   /* crop & fill the circle properly */
+  object-fit: cover;
   object-position: center;
+  border: 4px solid white;
+  box-shadow: 0 0 20px rgba(255,255,255,0.4);
 }
+
 
 body {
   height: 100vh;
@@ -161,7 +164,7 @@ h2 {
     </div>
 
     <!-- Oval photo -->
-    <img src="/img/Naman.JPG" alt="Naman Singh Photo" class="photo">
+    <img src="/img/Naman.JPG" class="profile-img" />
   </div>
 <script src="/JS/index.js"></script>
 
@@ -169,5 +172,6 @@ h2 {
   <a href="whois.html" class="next-btn">Next →</a>
 </body>
 </html>
+
 
 
