@@ -1,0 +1,95 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: radial-gradient(circle at center, #1c1c1c, #000);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+    
+/* HEADING */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 30px #4a646e;
+  letter-spacing: 2px;
+}
+
+/* MAIN CONTAINER */
+.marks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 80%;
+  max-width: 600px;
+}
+
+/* CARD STYLING */
+.card {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Gradient line */
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+/* TEXT */
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #e6e6e6;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  margin-top: 60px;
+  padding: 10px 25px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 30px;
+  background: transparent;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
