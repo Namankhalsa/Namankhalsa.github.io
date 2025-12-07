@@ -25,6 +25,10 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 40%; 
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+  pointer-events: none;
+  z-index: 1;
 }
 
 .wave-text {
@@ -159,5 +163,6 @@ html {
 .bottom-nav ul li a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
+
 
 
